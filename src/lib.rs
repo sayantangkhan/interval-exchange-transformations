@@ -13,6 +13,7 @@
 #![warn(missing_docs, unused_variables, rust_2018_idioms)]
 
 pub mod flipped_permutations;
+pub mod rauzy_cocycle;
 
 /// Trait modelling the actions one can perform on a generalized permutation.
 /// Currently, only irreducibility checking and Rauzy moves are implemented.
